@@ -1,0 +1,13 @@
+services:
+  back-end:
+    image: tbd/tbd # TODO: Replace with actual image name once available!
+    ports:
+      - "7768:7768"
+    networks:
+      - host # TODO: Consider replacing with custom-defined network for more universal usability.
+  front-end:
+    image: tbd/tbd # TODO: Replace with actual image name once available!
+    ports:
+      - "443:443"
+    networks:
+      - host # TODO: Consider replacing with custom-defined network for more universal usability.
