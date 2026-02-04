@@ -1,3 +1,5 @@
+name: thermal-markdown
+
 services:
   back-end:
     image: tbd/tbd # TODO: Replace with actual image name once available!
